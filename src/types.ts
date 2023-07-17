@@ -98,7 +98,7 @@ export type Sponsor = {
   hackathons: Hackathon[];
   id: string;
   logo?: string;
-  since: Date;
+  since: string;
   tier: string;
   website?: string;
 };
@@ -140,7 +140,7 @@ export function generateRandomSponsors(length: number): Sponsor[] {
       hackathons: [],
       id: faker.datatype.uuid(),
       logo: faker.image.imageUrl(),
-      since: new Date(),
+      since: new Date().toDateString(),
       tier: faker.helpers.arrayElement(tiers),
       website: faker.internet.url(),
     });
