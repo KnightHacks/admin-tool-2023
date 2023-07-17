@@ -1,6 +1,6 @@
 "use client";
 
-import { Modal } from "@/lib/Modal";
+import { Modal } from "@/components/Modal";
 import { Sponsor, getAmountFromTier } from "@/types";
 import {
   createColumnHelper,

@@ -1,6 +1,6 @@
 "use client";
 
-import { Modal } from "@/lib/Modal";
+import { Modal } from "@/components/Modal";
 import { Attendee } from "@/types";
 import {
   createColumnHelper,
