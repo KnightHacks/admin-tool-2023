@@ -13,7 +13,7 @@ npm i
 Before going any further, you will need to add an .env.local file at the root of your directory containing the following contents:
 
 ```env
-API_ENDPOINT= # https://api-dev.knighthacks.org/ or http://localhost:4000/
+API_ENDPOINT= # https://api.knighthacks.org/ or http://localhost:4000/ if hosted locally
 ```
 
 ## Getting Started
