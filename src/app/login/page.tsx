@@ -6,12 +6,6 @@ import { GitHub } from "./GitHub";
 import { Google } from "./Google";
 
 export default function Login() {
-  const hasToken = cookies().has("token") || true;
-
-  if (hasToken) {
-    redirect("/login");
-  }
-
   return (
     <div className="flex min-h-screen flex-col items-center bg-[#fbfbfb] pt-20">
       <div className="mb-12 flex items-center gap-4 text-5xl font-extrabold text-[#DBBF4A]">
