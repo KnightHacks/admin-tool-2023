@@ -1,4 +1,4 @@
-import { Sponsor, generateRandomSponsors } from "@/types";
+import { generateRandomSponsors } from "@/types";
 import { SponsorsTable } from "./SponsorsTable";
 
 export default function Sponsors() {
